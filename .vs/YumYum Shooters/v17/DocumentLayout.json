@@ -3,27 +3,15 @@
   "WorkspaceRootPath": "D:\\Unity_study\\YumYum Shooters\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Unity_study\\YumYum Shooters\\Library\\PackageCache\\com.unity.ugui\\Runtime\\UGUI\\UI\\Core\\VertexModifiers\\Outline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.ugui\\Runtime\\UGUI\\UI\\Core\\VertexModifiers\\Outline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DC756488-D2BF-486F-0FDA-E08A40425C71}|Assembly-CSharp.csproj|d:\\unity_study\\yumyum shooters\\assets\\scripts\\linvingentity\\monsters\\monsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DC756488-D2BF-486F-0FDA-E08A40425C71}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\linvingentity\\monsters\\monsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DC756488-D2BF-486F-0FDA-E08A40425C71}|Assembly-CSharp.csproj|d:\\unity_study\\yumyum shooters\\assets\\scripts\\linvingentity\\monsters\\ghostsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DC756488-D2BF-486F-0FDA-E08A40425C71}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\linvingentity\\monsters\\ghostsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DC756488-D2BF-486F-0FDA-E08A40425C71}|Assembly-CSharp.csproj|D:\\Unity_study\\YumYum Shooters\\assets\\scripts\\linvingentity\\living.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DC756488-D2BF-486F-0FDA-E08A40425C71}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\linvingentity\\living.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DC756488-D2BF-486F-0FDA-E08A40425C71}|Assembly-CSharp.csproj|D:\\Unity_study\\YumYum Shooters\\assets\\scripts\\gamemanager\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DC756488-D2BF-486F-0FDA-E08A40425C71}|Assembly-CSharp.csproj|d:\\unity_study\\yumyum shooters\\assets\\scripts\\gamemanager\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DC756488-D2BF-486F-0FDA-E08A40425C71}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Unity_study\\source\\Unity-Programming-Essence-2021\\11\\Uni-Run\\Assets\\Scripts\\GameManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC756488-D2BF-486F-0FDA-E08A40425C71}|Assembly-CSharp.csproj|d:\\unity_study\\yumyum shooters\\assets\\scripts\\gamemanager\\scenechanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC756488-D2BF-486F-0FDA-E08A40425C71}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager\\scenechanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -33,102 +21,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Outline.cs",
-              "DocumentMoniker": "D:\\Unity_study\\YumYum Shooters\\Library\\PackageCache\\com.unity.ugui\\Runtime\\UGUI\\UI\\Core\\VertexModifiers\\Outline.cs",
-              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.ugui\\Runtime\\UGUI\\UI\\Core\\VertexModifiers\\Outline.cs",
-              "ToolTip": "D:\\Unity_study\\YumYum Shooters\\Library\\PackageCache\\com.unity.ugui\\Runtime\\UGUI\\UI\\Core\\VertexModifiers\\Outline.cs",
-              "RelativeToolTip": "Library\\PackageCache\\com.unity.ugui\\Runtime\\UGUI\\UI\\Core\\VertexModifiers\\Outline.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "SceneChanger.cs",
+              "DocumentMoniker": "D:\\Unity_study\\YumYum Shooters\\Assets\\Scripts\\GameManager\\SceneChanger.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager\\SceneChanger.cs",
+              "ToolTip": "D:\\Unity_study\\YumYum Shooters\\Assets\\Scripts\\GameManager\\SceneChanger.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameManager\\SceneChanger.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T11:59:33.248Z",
+              "WhenOpened": "2024-12-03T08:08:39.815Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "GameManager.cs",
               "DocumentMoniker": "D:\\Unity_study\\YumYum Shooters\\Assets\\Scripts\\GameManager\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager\\GameManager.cs",
               "ToolTip": "D:\\Unity_study\\YumYum Shooters\\Assets\\Scripts\\GameManager\\GameManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\GameManager\\GameManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAcAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T08:19:09.162Z"
+              "WhenOpened": "2024-11-26T08:19:09.162Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "GameManager.cs",
               "DocumentMoniker": "D:\\Unity_study\\source\\Unity-Programming-Essence-2021\\11\\Uni-Run\\Assets\\Scripts\\GameManager.cs",
               "RelativeDocumentMoniker": "..\\source\\Unity-Programming-Essence-2021\\11\\Uni-Run\\Assets\\Scripts\\GameManager.cs",
               "ToolTip": "D:\\Unity_study\\source\\Unity-Programming-Essence-2021\\11\\Uni-Run\\Assets\\Scripts\\GameManager.cs",
               "RelativeToolTip": "..\\source\\Unity-Programming-Essence-2021\\11\\Uni-Run\\Assets\\Scripts\\GameManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T08:17:25.71Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MonSystem.cs",
-              "DocumentMoniker": "D:\\Unity_study\\YumYum Shooters\\Assets\\Scripts\\LinvingEntity\\Monsters\\MonSystem.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\LinvingEntity\\Monsters\\MonSystem.cs",
-              "ToolTip": "D:\\Unity_study\\YumYum Shooters\\Assets\\Scripts\\LinvingEntity\\Monsters\\MonSystem.cs",
-              "RelativeToolTip": "Assets\\Scripts\\LinvingEntity\\Monsters\\MonSystem.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAiwCgAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T08:52:08.617Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Living.cs",
-              "DocumentMoniker": "D:\\Unity_study\\YumYum Shooters\\Assets\\Scripts\\LinvingEntity\\Living.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\LinvingEntity\\Living.cs",
-              "ToolTip": "D:\\Unity_study\\YumYum Shooters\\Assets\\Scripts\\LinvingEntity\\Living.cs",
-              "RelativeToolTip": "Assets\\Scripts\\LinvingEntity\\Living.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAowDIAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T07:10:02.65Z"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "Orientation": 0,
-      "VerticalTabListWidth": 256,
-      "FloatingWindowState": {
-        "Id": "16a56a55-8df8-4779-b1e2-d43a0017cc75",
-        "Display": 0,
-        "X": 784,
-        "Y": 84,
-        "Width": 722,
-        "Height": 561,
-        "WindowState": 0
-      },
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "GhostSystem.cs",
-              "DocumentMoniker": "D:\\Unity_study\\YumYum Shooters\\Assets\\Scripts\\LinvingEntity\\Monsters\\GhostSystem.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\LinvingEntity\\Monsters\\GhostSystem.cs",
-              "ToolTip": "D:\\Unity_study\\YumYum Shooters\\Assets\\Scripts\\LinvingEntity\\Monsters\\GhostSystem.cs",
-              "RelativeToolTip": "Assets\\Scripts\\LinvingEntity\\Monsters\\GhostSystem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T07:23:02.07Z",
+              "WhenOpened": "2024-11-26T08:17:25.71Z",
               "EditorCaption": ""
             }
           ]

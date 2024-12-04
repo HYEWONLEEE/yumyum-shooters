@@ -1,5 +1,7 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+
 //가중치를 통해서 경험치 오브가 가질 경험치 값을 결정함
 //맵 전역에 경험치 오브가 생성되도록 함 
 public class ExpSpawner : MonoBehaviour
@@ -24,6 +26,11 @@ public class ExpSpawner : MonoBehaviour
 
     public void Start()
     {
+        if (SceneManager.GetActiveScene().name != "Main")
+        {
+            enabled = false; //메인 씬 활성화되어있지 않으면 스크립트 비활성화
+            return;
+        }
         StartCoroutine(CheckOrbCount());
     }
 

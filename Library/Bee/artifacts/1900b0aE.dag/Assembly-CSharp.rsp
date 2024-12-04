@@ -435,6 +435,7 @@
 "Assets/Scripts/Attack/DAData.cs"
 "Assets/Scripts/Attack/DASpawner.cs"
 "Assets/Scripts/GameManager/GameManager.cs"
+"Assets/Scripts/GameManager/SceneChanger.cs"
 "Assets/Scripts/Item/EXP.cs"
 "Assets/Scripts/Item/ExpSpawner.cs"
 "Assets/Scripts/Item/HealPack.cs"

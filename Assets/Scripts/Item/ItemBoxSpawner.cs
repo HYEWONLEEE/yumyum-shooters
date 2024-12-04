@@ -4,6 +4,8 @@ using System.Linq;
 using System;
 using System.Collections;
 using Unity.VisualScripting;
+using UnityEngine.SceneManagement;
+
 
 //아이템박스가 맵 고정 위치에 일정 시간이 지날 때마다 스폰되게 함
 //고정 위치 10개 중 랜덤한 3 위치에 생성 됨 
@@ -38,6 +40,11 @@ public class ItemBoxSpawner : MonoBehaviour
 
     private void Start()
     {
+        if (SceneManager.GetActiveScene().name != "Main")
+        {
+            enabled = false; //메인 씬 활성화되어있지 않으면 스크립트 비활성화
+            return;
+        }
         StartCoroutine(CheckBoxCount());
     }
 
