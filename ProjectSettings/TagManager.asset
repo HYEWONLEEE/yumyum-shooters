@@ -7,6 +7,7 @@ TagManager:
   - Attack
   - Monster
   - Obstacle
+  - Parent
   layers:
   - Default
   - TransparentFX
