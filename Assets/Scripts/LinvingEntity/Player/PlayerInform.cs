@@ -15,9 +15,10 @@ public class PlayerInform : Living
         playerMovement = GetComponent<PlayerMovement>();
         daSpawner = GetComponentInChildren<DASpawner>(); //daspawner는 자식오브젝트의 컴포넌트
     }
-    public void OnEnable()
+    public void Start()
     {
         entireHealth = 100f; //피통 설정
+        exp = 0; //처음에 0으로 설정
         InitializeHealth();
         level = 1;
 
@@ -67,6 +68,8 @@ public class PlayerInform : Living
             entireExp += 50f; //경험치 통 키우기 
             entireHealth += 50f; //피통 키우기
             health = entireHealth; //피통 꽉 채우기
+
+            
             //레벨업 이후 스킬 업그레이드, 능력치 조정 등의 처리 할 예정
         }
     }

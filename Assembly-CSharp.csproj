@@ -69,6 +69,7 @@
     <Compile Include="Assets\Scripts\LinvingEntity\Player\PlayerInform.cs" />
     <Compile Include="Assets\Scripts\Item\ItemBoxSpawner.cs" />
     <Compile Include="Assets\Scripts\Attack\DAAction.cs" />
+    <Compile Include="Assets\Scripts\UI\ExpUI.cs" />
     <Compile Include="Assets\Scripts\LinvingEntity\IDamageable.cs" />
     <Compile Include="Assets\Scripts\LinvingEntity\Living.cs" />
     <Compile Include="Assets\Scripts\Item\ExpSpawner.cs" />
