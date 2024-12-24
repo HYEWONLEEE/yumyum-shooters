@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.InputSystem.LowLevel;
+using UnityEngine.SceneManagement;
 
 public class DASpawner : MonoBehaviour
 {   //DA생성 / DA 발사 방향 설정 / 실제 발사 처리
@@ -20,6 +21,12 @@ public class DASpawner : MonoBehaviour
 
     void Update()
     {
+        if (SceneManager.GetActiveScene().name != "Main")
+        {
+            enabled = false; //메인 씬 활성화되어있지 않으면 스크립트 비활성화
+            return;
+        }
+
         timeAfterShot += Time.deltaTime; 
 
         if(timeAfterShot >= daData.timeBetShot)

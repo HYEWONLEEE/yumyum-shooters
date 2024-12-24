@@ -20,12 +20,12 @@ public class GameManager : MonoBehaviour
     {
         SceneManager.sceneLoaded -= OnSceneLoaded;
     }
-    void Awake()
+    private void Awake()
     {
         if (instance == null)
         {
             instance = this;
-            mainParent.SetActive(false);
+            DontDestroyOnLoad(gameObject);
             
         }
 
@@ -40,21 +40,32 @@ public class GameManager : MonoBehaviour
 
     private void OnSceneLoaded (Scene scene, LoadSceneMode mode)
     {
+        if (scene.name == "Title")
+        {
+            mainParent.SetActive(false); //제발돼라 타이틀 씬일때는 실행되지 않기 제발쩜!!!
+        }
         if (scene.name == "Main") 
         {
-            StartCoroutine(DelayActivation()); //메인 씬 로드될 때 활성화
+            mainParent = GameObject.Find("mainParent"); //메인 씬의 부모를 찾고 비활성화 후 활성화
+            if (mainParent != null)
+            {
+                StartCoroutine(ActivateMainScene());
+            }
+        }
+
+        else
+        {
+            if (mainParent != null)
+            {
+                mainParent.SetActive(false); //메인 씬 아니면 비활성화
+            }
         }
     }
 
-    private IEnumerator DelayActivation()
-    {
-        yield return null; 
-        ActivateMainScene();
-    }
 
-    private void ActivateMainScene()
+    private IEnumerator ActivateMainScene()
     {
-        
+        yield return null; //한 프레임 대기 
         if (mainParent != null)
         {
             mainParent.SetActive(true);

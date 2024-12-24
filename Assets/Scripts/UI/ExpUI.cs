@@ -13,12 +13,12 @@ public class ExpUI : MonoBehaviour
     public void Start()
     {
         expInform = player.GetComponent<PlayerInform>();
-        if (expInform != null) { return; }
+        if (expInform == null) { return; }
         expBar.maxValue = expInform.entireExp;
         
     }
 
-    public void Update()
+    private void Update()
     {
         UpdateExpUI();
     }

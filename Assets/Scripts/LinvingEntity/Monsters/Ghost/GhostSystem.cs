@@ -15,10 +15,23 @@ public class GhostSystem : MonSystem //»ó¼Ó .
 
     }
 
+    private void Update()
+    {
+        if (dead == true)
+        {
+            Die();
+            //return;
+        }
+    }
 
     protected override void Attack()
     {
 
+    }
+
+    public override void Die()
+    {
+        base.Die();
     }
 
     private void FixedUpdate()

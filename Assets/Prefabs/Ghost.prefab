@@ -120,7 +120,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -162,7 +162,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!114 &3112783172681375531
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -175,5 +175,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0db1703a74fc6a498788f0aa6514834, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  monsterPool: {fileID: 0}
   target: {fileID: 0}
   ghostData: {fileID: 11400000, guid: 4a2151df0e5b1bf40a20446d37a5d993, type: 2}

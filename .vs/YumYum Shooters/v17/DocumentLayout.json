@@ -3,19 +3,28 @@
   "WorkspaceRootPath": "D:\\Unity_study\\YumYum Shooters\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DC756488-D2BF-486F-0FDA-E08A40425C71}|Assembly-CSharp.csproj|d:\\unity_study\\yumyum shooters\\assets\\scripts\\linvingentity\\player\\playerinform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DC756488-D2BF-486F-0FDA-E08A40425C71}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\linvingentity\\player\\playerinform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DC756488-D2BF-486F-0FDA-E08A40425C71}|Assembly-CSharp.csproj|d:\\unity_study\\yumyum shooters\\assets\\scripts\\ui\\expui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC756488-D2BF-486F-0FDA-E08A40425C71}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\expui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DC756488-D2BF-486F-0FDA-E08A40425C71}|Assembly-CSharp.csproj|D:\\Unity_study\\YumYum Shooters\\assets\\scripts\\item\\exp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DC756488-D2BF-486F-0FDA-E08A40425C71}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\item\\exp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DC756488-D2BF-486F-0FDA-E08A40425C71}|Assembly-CSharp.csproj|d:\\unity_study\\yumyum shooters\\assets\\scripts\\ui\\timerui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC756488-D2BF-486F-0FDA-E08A40425C71}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\timerui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DC756488-D2BF-486F-0FDA-E08A40425C71}|Assembly-CSharp.csproj|D:\\Unity_study\\YumYum Shooters\\assets\\scripts\\gamemanager\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DC756488-D2BF-486F-0FDA-E08A40425C71}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DC756488-D2BF-486F-0FDA-E08A40425C71}|Assembly-CSharp.csproj|D:\\Unity_study\\YumYum Shooters\\assets\\scripts\\linvingentity\\monsters\\monpool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC756488-D2BF-486F-0FDA-E08A40425C71}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\linvingentity\\monsters\\monpool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Unity_study\\source\\Unity-Programming-Essence-2021\\11\\Uni-Run\\Assets\\Scripts\\GameManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DC756488-D2BF-486F-0FDA-E08A40425C71}|Assembly-CSharp.csproj|D:\\Unity_study\\YumYum Shooters\\assets\\scripts\\linvingentity\\monsters\\ghost\\ghostsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC756488-D2BF-486F-0FDA-E08A40425C71}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\linvingentity\\monsters\\ghost\\ghostsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC756488-D2BF-486F-0FDA-E08A40425C71}|Assembly-CSharp.csproj|D:\\Unity_study\\YumYum Shooters\\assets\\scripts\\linvingentity\\monsters\\monspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC756488-D2BF-486F-0FDA-E08A40425C71}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\linvingentity\\monsters\\monspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC756488-D2BF-486F-0FDA-E08A40425C71}|Assembly-CSharp.csproj|D:\\Unity_study\\YumYum Shooters\\assets\\scripts\\cambound.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC756488-D2BF-486F-0FDA-E08A40425C71}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cambound.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -25,57 +34,83 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "EXP.cs",
-              "DocumentMoniker": "D:\\Unity_study\\YumYum Shooters\\Assets\\Scripts\\Item\\EXP.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Item\\EXP.cs",
-              "ToolTip": "D:\\Unity_study\\YumYum Shooters\\Assets\\Scripts\\Item\\EXP.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Item\\EXP.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBcAAAAbAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "ExpUI.cs",
+              "DocumentMoniker": "D:\\Unity_study\\YumYum Shooters\\Assets\\Scripts\\UI\\ExpUI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\ExpUI.cs",
+              "ToolTip": "D:\\Unity_study\\YumYum Shooters\\Assets\\Scripts\\UI\\ExpUI.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\ExpUI.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T08:00:54.495Z"
+              "WhenOpened": "2024-12-24T09:03:46.837Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PlayerInform.cs",
-              "DocumentMoniker": "D:\\Unity_study\\YumYum Shooters\\Assets\\Scripts\\LinvingEntity\\Player\\PlayerInform.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\LinvingEntity\\Player\\PlayerInform.cs",
-              "ToolTip": "D:\\Unity_study\\YumYum Shooters\\Assets\\Scripts\\LinvingEntity\\Player\\PlayerInform.cs",
-              "RelativeToolTip": "Assets\\Scripts\\LinvingEntity\\Player\\PlayerInform.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAADwvzwAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "GhostSystem.cs",
+              "DocumentMoniker": "D:\\Unity_study\\YumYum Shooters\\Assets\\Scripts\\LinvingEntity\\Monsters\\Ghost\\GhostSystem.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\LinvingEntity\\Monsters\\Ghost\\GhostSystem.cs",
+              "ToolTip": "D:\\Unity_study\\YumYum Shooters\\Assets\\Scripts\\LinvingEntity\\Monsters\\Ghost\\GhostSystem.cs",
+              "RelativeToolTip": "Assets\\Scripts\\LinvingEntity\\Monsters\\Ghost\\GhostSystem.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T07:10:26.432Z",
+              "WhenOpened": "2024-12-23T09:22:22.073Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "GameManager.cs",
-              "DocumentMoniker": "D:\\Unity_study\\YumYum Shooters\\Assets\\Scripts\\GameManager\\GameManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager\\GameManager.cs",
-              "ToolTip": "D:\\Unity_study\\YumYum Shooters\\Assets\\Scripts\\GameManager\\GameManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\GameManager\\GameManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAFAAAAAAAAAA==",
+              "Title": "MonPool.cs",
+              "DocumentMoniker": "D:\\Unity_study\\YumYum Shooters\\Assets\\Scripts\\LinvingEntity\\Monsters\\MonPool.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\LinvingEntity\\Monsters\\MonPool.cs",
+              "ToolTip": "D:\\Unity_study\\YumYum Shooters\\Assets\\Scripts\\LinvingEntity\\Monsters\\MonPool.cs",
+              "RelativeToolTip": "Assets\\Scripts\\LinvingEntity\\Monsters\\MonPool.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwBUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T08:19:09.162Z"
+              "WhenOpened": "2024-12-22T07:49:31.068Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "GameManager.cs",
-              "DocumentMoniker": "D:\\Unity_study\\source\\Unity-Programming-Essence-2021\\11\\Uni-Run\\Assets\\Scripts\\GameManager.cs",
-              "RelativeDocumentMoniker": "..\\source\\Unity-Programming-Essence-2021\\11\\Uni-Run\\Assets\\Scripts\\GameManager.cs",
-              "ToolTip": "D:\\Unity_study\\source\\Unity-Programming-Essence-2021\\11\\Uni-Run\\Assets\\Scripts\\GameManager.cs",
-              "RelativeToolTip": "..\\source\\Unity-Programming-Essence-2021\\11\\Uni-Run\\Assets\\Scripts\\GameManager.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "MonSpawner.cs",
+              "DocumentMoniker": "D:\\Unity_study\\YumYum Shooters\\Assets\\Scripts\\LinvingEntity\\Monsters\\MonSpawner.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\LinvingEntity\\Monsters\\MonSpawner.cs",
+              "ToolTip": "D:\\Unity_study\\YumYum Shooters\\Assets\\Scripts\\LinvingEntity\\Monsters\\MonSpawner.cs",
+              "RelativeToolTip": "Assets\\Scripts\\LinvingEntity\\Monsters\\MonSpawner.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwAYAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T08:17:25.71Z",
+              "WhenOpened": "2024-12-22T07:33:34.121Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TimerUI.cs",
+              "DocumentMoniker": "D:\\Unity_study\\YumYum Shooters\\Assets\\Scripts\\UI\\TimerUI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\TimerUI.cs",
+              "ToolTip": "D:\\Unity_study\\YumYum Shooters\\Assets\\Scripts\\UI\\TimerUI.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\TimerUI.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T09:04:45.751Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CamBound.cs",
+              "DocumentMoniker": "D:\\Unity_study\\YumYum Shooters\\Assets\\Scripts\\CamBound.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CamBound.cs",
+              "ToolTip": "D:\\Unity_study\\YumYum Shooters\\Assets\\Scripts\\CamBound.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CamBound.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T08:07:55.691Z"
             }
           ]
         }

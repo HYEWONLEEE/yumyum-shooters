@@ -7,6 +7,7 @@ public class MonSystem : Living //LivingÀÌ MonoBehaviour¸¦ ÀÌ¹Ì »ó¼ÓÇÏ¹Ç·Î Ç¥½ÃÇ
 {
     //2dÀÌ¸ç ÁöÇüÁö¹°ÀÌ ¾øÀ¸¹Ç·Î ³»ºñ¸Å½Ã ¾øÀÌ ÃßÀû ±¸Çö °¡´É
 
+    public MonPool monsterPool; //¸ó½ºÅÍ Ç® 
     public GameObject target; //ÃßÀûÇÒ ´ë»ó, ÇÃ·¹ÀÌ¾î
     protected Rigidbody2D monRigidbody; //¸ó½ºÅÍµéÀÇ ¸®Áöµå¹Ùµğ ÄÄÆ÷³ÍÆ®
     public float monSpeed { get; protected set; } //¸ó½ºÅÍÀÇ ÀÌµ¿ ¼Óµµ
@@ -37,8 +38,8 @@ public class MonSystem : Living //LivingÀÌ MonoBehaviour¸¦ ÀÌ¹Ì »ó¼ÓÇÏ¹Ç·Î Ç¥½ÃÇ
 
     public override void Die()
     {
-        base.Die();
-        Destroy(gameObject);
+        monsterPool = FindFirstObjectByType<MonPool>();
+        monsterPool.ReturnObject(gameObject); //Á×À» ¶§ Ç®¿¡ ¹İÈ¯µÊ
         //Á×À¸¸é¼­ °¡ÁßÄ¡¿¡ µû¶ó ¾ÆÀÌÅÛ µå¶øÇÏ´Â ·ÎÁ÷ Ãß°¡
     }
 

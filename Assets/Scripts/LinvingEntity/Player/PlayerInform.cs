@@ -17,7 +17,7 @@ public class PlayerInform : Living
     }
     public void Start()
     {
-        entireHealth = 100f; //피통 설정
+        entireHealth = 100f; //피통 설정, 초기값 100
         exp = 0; //처음에 0으로 설정
         InitializeHealth();
         level = 1;
