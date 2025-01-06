@@ -54,5 +54,8 @@ TagManager:
   - name: Foreground
     uniqueID: 1142193831
     locked: 0
+  - name: PauseUI
+    uniqueID: 1124112591
+    locked: 0
   m_RenderingLayers:
   - Default
