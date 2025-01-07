@@ -8,15 +8,19 @@ public class PlayerInform : Living
     public int level { get; protected set; } //레벨
 
     private PlayerMovement playerMovement;
+    private PlayerInput playerInput;
     private DASpawner daSpawner;
+    private Animator playerAnimator;
 
-    private void Awake() //사용할 컴포넌트 가져오기 
-    {
-        playerMovement = GetComponent<PlayerMovement>();
-        daSpawner = GetComponentInChildren<DASpawner>(); //daspawner는 자식오브젝트의 컴포넌트
-    }
+
     public void Start()
     {
+
+        playerMovement = GetComponent<PlayerMovement>();
+        daSpawner = GetComponentInChildren<DASpawner>(); //daspawner는 자식오브젝트의 컴포넌트
+        playerAnimator = GetComponent<Animator>();
+        playerInput = GetComponent<PlayerInput>();
+
         entireHealth = 100f; //피통 설정, 초기값 100
         exp = 0; //처음에 0으로 설정
         InitializeHealth();
@@ -35,9 +39,10 @@ public class PlayerInform : Living
     public override void Die()
     {
         base.Die();
-
-        playerMovement.enabled = false;
+        playerAnimator.SetTrigger("Die");
+        playerInput.enabled = false;
         daSpawner.enabled = false;
+
     }
 
     //회복 처리

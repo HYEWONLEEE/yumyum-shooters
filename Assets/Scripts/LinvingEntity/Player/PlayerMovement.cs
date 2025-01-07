@@ -1,6 +1,9 @@
 using UnityEngine;
+using UnityEngine.EventSystems;
+using UnityEngine.InputSystem.Processors;
+using UnityEngine.Windows.Speech;
 //실제 움직임처리, 맵 밖으로 벗어나지 않도록 조정
-public class PlayerMovement : MonoBehaviour
+public class PlayerMovement : PlayerInform
 {
     public float speed = 10;
     public float minX = -50f;
@@ -8,14 +11,18 @@ public class PlayerMovement : MonoBehaviour
     public float minY = -50f;
     public float maxY = 50;
 
-    private PlayerInput playerInput;
+    private PlayerInput input;
     private Rigidbody2D playerRigidbody;
-    //private Animator PlayerAnimator; 
 
-    private void Start()
+
+    
+
+    private void Awake()
     {
-        playerInput = GetComponent<PlayerInput>();
+        input = GetComponent<PlayerInput>();
         playerRigidbody = GetComponent<Rigidbody2D>();
+        
+        
     }
 
     private void Update() //플레이어가 맵 밖으로 벗어나는 지 검사..
@@ -31,12 +38,22 @@ public class PlayerMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
+
+        if (dead)
+        {
+            
+            playerRigidbody.linearVelocity = Vector2.zero;
+            return;
+        }
+
         Move();
     }
 
     private void Move()
     {
-        Vector2 moveDirection = new Vector2(playerInput.xSense, playerInput.ySense).normalized; //이동 방향 설정
-        playerRigidbody.linearVelocity = moveDirection * speed; //이동 속도 
+         Vector2 moveDirection = new Vector2(input.xSense, input.ySense).normalized; //이동 방향 설정
+         playerRigidbody.linearVelocity = moveDirection * speed; //이동 속도
     }
+ 
+    
 }

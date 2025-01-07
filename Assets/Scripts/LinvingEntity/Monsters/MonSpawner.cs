@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.Pool;
+using UnityEngine.SceneManagement;
 //카메라 경계 바깥에서 몬스터가 스폰되도록 하는 스크립트
 //오브젝트 풀링 사용
 public class MonSpawner : MonoBehaviour
@@ -14,6 +15,11 @@ public class MonSpawner : MonoBehaviour
 
     private void Start()
     {
+        if (SceneManager.GetActiveScene().name != "Main")
+        {
+            enabled = false; //메인 씬 활성화되어있지 않으면 스크립트 비활성화
+            return;
+        }
         monsterPool.InitializePool(monsterPrefab, initialPoolSize);
 
     }
