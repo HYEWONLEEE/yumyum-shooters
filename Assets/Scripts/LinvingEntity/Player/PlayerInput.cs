@@ -46,9 +46,9 @@ public class PlayerInput : MonoBehaviour
 
     private void InputSense()
     {
-        if (xSense == 0)
+        if (xSense == 0 && ySense == 0) //입력이 감지되지 않으면
         {
-            playerAnimator.SetBool("Run", false);
+            playerAnimator.SetBool("Run", false); //달리기 애니메이션 실행x
         }
         else
         {

@@ -1,3 +1,4 @@
+using System.Security.Cryptography;
 using Unity.VisualScripting;
 using UnityEngine;
 
@@ -10,12 +11,21 @@ public class MonSystem : Living //LivingÀÌ MonoBehaviour¸¦ ÀÌ¹Ì »ó¼ÓÇÏ¹Ç·Î Ç¥½ÃÇ
     public MonPool monsterPool; //¸ó½ºÅÍ Ç® 
     public GameObject target; //ÃßÀûÇÒ ´ë»ó, ÇÃ·¹ÀÌ¾î
     protected Rigidbody2D monRigidbody; //¸ó½ºÅÍµéÀÇ ¸®Áöµå¹Ùµğ ÄÄÆ÷³ÍÆ®
+    private Animator monAnimator;
+    private SpriteRenderer spriteRenderer;
+
     public float monSpeed { get; protected set; } //¸ó½ºÅÍÀÇ ÀÌµ¿ ¼Óµµ
     public float monDamage { get ; protected set; } //¸ó½ºÅÍÀÇ °ø°İ·Â
     protected float attackCoolTime = 1f; //¸ö»§ °ø°İÀÌ ÀÌ·ç¾îÁú ÄğÅ¸ÀÓ(°£°İ)
     protected float lastAttackTime; //¸¶Áö¸· ¸ö»§ °ø°İ ½ÃÁ¡
-    
 
+    public Vector2 moveDirection;
+
+    public void Awake()
+    {
+        monAnimator = GetComponent<Animator>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
+    }
     protected void GetTarget()
     {
         target = GameObject.FindGameObjectWithTag("Player"); //ÇÃ·¹ÀÌ¾î ÅÂ±× °¡Áø °ÔÀÓ ¿ÀºêÁ§Æ®¸¦ Å¸°Ù¿¡ ÇÒ´ç
@@ -29,12 +39,14 @@ public class MonSystem : Living //LivingÀÌ MonoBehaviour¸¦ ÀÌ¹Ì »ó¼ÓÇÏ¹Ç·Î Ç¥½ÃÇ
 
     protected virtual void Move()
     {
-        if(target != null)
+        if (target != null)
         {
-            Vector2 moveDirection = (target.transform.position - transform.position).normalized; //¸ó½ºÅÍ°¡ ÀÌµ¿ÇÏ·Á´Â ¹æÇâ
+            moveDirection = (target.transform.position - transform.position).normalized; //¸ó½ºÅÍ°¡ ÀÌµ¿ÇÏ·Á´Â ¹æÇâ
             monRigidbody.linearVelocity = moveDirection * monSpeed;
+            LRSetting();
         }
-    }
+     }
+    
 
     public override void Die()
     {
@@ -46,7 +58,7 @@ public class MonSystem : Living //LivingÀÌ MonoBehaviour¸¦ ÀÌ¹Ì »ó¼ÓÇÏ¹Ç·Î Ç¥½ÃÇ
     public override void OnDamage(float damage, Vector2 hitPoint, Vector2 hitNormal)
     {
         base.OnDamage(damage, hitPoint, hitNormal);
-        Debug.Log("¾Æ¾ß");
+        //Debug.Log("¾Æ¾ß");
     }
 
     protected virtual void Attack() //¸ó½ºÅÍÀÇ °ø°İ ½ºÅ³, ÇÃ·¹ÀÌ¾î¸¸ °ø°İÇÏ±æ
@@ -70,6 +82,18 @@ public class MonSystem : Living //LivingÀÌ MonoBehaviour¸¦ ÀÌ¹Ì »ó¼ÓÇÏ¹Ç·Î Ç¥½ÃÇ
             lastAttackTime = Time.time;
         }
 
+    }
+
+    private void LRSetting()
+    {
+        if (moveDirection.x < 0) //¿ŞÂÊÀ¸·Î ÀÌµ¿ ½Ã
+        {
+            spriteRenderer.flipX = true; //ÁÂ¿ì ¹İÀüÇÏ±â
+        }
+        else if (moveDirection.x > 0)
+        {
+            spriteRenderer.flipX = false; //¿À¸¥ÂÊÀ¸·Î ÀÌµ¿½Ã¿¡´Â ±×´ë·Î 
+        }
     }
 
 
