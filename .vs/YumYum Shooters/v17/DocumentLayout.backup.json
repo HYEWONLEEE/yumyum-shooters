@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "D:\\Unity_study\\YumYum Shooters\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DC756488-D2BF-486F-0FDA-E08A40425C71}|Assembly-CSharp.csproj|d:\\unity_study\\yumyum shooters\\assets\\scripts\\linvingentity\\monsters\\ghost\\ghostsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DC756488-D2BF-486F-0FDA-E08A40425C71}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\linvingentity\\monsters\\ghost\\ghostsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DC756488-D2BF-486F-0FDA-E08A40425C71}|Assembly-CSharp.csproj|d:\\unity_study\\yumyum shooters\\assets\\scripts\\linvingentity\\monsters\\monspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC756488-D2BF-486F-0FDA-E08A40425C71}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\linvingentity\\monsters\\monspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC756488-D2BF-486F-0FDA-E08A40425C71}|Assembly-CSharp.csproj|d:\\unity_study\\yumyum shooters\\assets\\scripts\\camera\\cambound.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC756488-D2BF-486F-0FDA-E08A40425C71}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\camera\\cambound.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC756488-D2BF-486F-0FDA-E08A40425C71}|Assembly-CSharp.csproj|d:\\unity_study\\yumyum shooters\\assets\\scripts\\camera\\cam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC756488-D2BF-486F-0FDA-E08A40425C71}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\camera\\cam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DC756488-D2BF-486F-0FDA-E08A40425C71}|Assembly-CSharp.csproj|D:\\Unity_study\\YumYum Shooters\\assets\\scripts\\linvingentity\\monsters\\monsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DC756488-D2BF-486F-0FDA-E08A40425C71}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\linvingentity\\monsters\\monsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC756488-D2BF-486F-0FDA-E08A40425C71}|Assembly-CSharp.csproj|d:\\unity_study\\yumyum shooters\\assets\\scripts\\linvingentity\\monsters\\ghost\\ghostsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC756488-D2BF-486F-0FDA-E08A40425C71}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\linvingentity\\monsters\\ghost\\ghostsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DC756488-D2BF-486F-0FDA-E08A40425C71}|Assembly-CSharp.csproj|D:\\Unity_study\\YumYum Shooters\\assets\\scripts\\linvingentity\\player\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -17,10 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{DC756488-D2BF-486F-0FDA-E08A40425C71}|Assembly-CSharp.csproj|D:\\Unity_study\\YumYum Shooters\\assets\\scripts\\linvingentity\\player\\playerinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DC756488-D2BF-486F-0FDA-E08A40425C71}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\linvingentity\\player\\playerinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DC756488-D2BF-486F-0FDA-E08A40425C71}|Assembly-CSharp.csproj|D:\\Unity_study\\YumYum Shooters\\assets\\scripts\\item\\expspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DC756488-D2BF-486F-0FDA-E08A40425C71}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\item\\expspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,31 +43,71 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "CamBound.cs",
+              "DocumentMoniker": "D:\\Unity_study\\YumYum Shooters\\Assets\\Scripts\\Camera\\CamBound.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Camera\\CamBound.cs",
+              "ToolTip": "D:\\Unity_study\\YumYum Shooters\\Assets\\Scripts\\Camera\\CamBound.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Camera\\CamBound.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAiwB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T12:46:52.401Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MonSpawner.cs",
+              "DocumentMoniker": "D:\\Unity_study\\YumYum Shooters\\Assets\\Scripts\\LinvingEntity\\Monsters\\MonSpawner.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\LinvingEntity\\Monsters\\MonSpawner.cs",
+              "ToolTip": "D:\\Unity_study\\YumYum Shooters\\Assets\\Scripts\\LinvingEntity\\Monsters\\MonSpawner.cs",
+              "RelativeToolTip": "Assets\\Scripts\\LinvingEntity\\Monsters\\MonSpawner.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAgwBwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T12:45:39.08Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Cam.cs",
+              "DocumentMoniker": "D:\\Unity_study\\YumYum Shooters\\Assets\\Scripts\\Camera\\Cam.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Camera\\Cam.cs",
+              "ToolTip": "D:\\Unity_study\\YumYum Shooters\\Assets\\Scripts\\Camera\\Cam.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Camera\\Cam.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAYwBAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T12:48:56.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "MonSystem.cs",
               "DocumentMoniker": "D:\\Unity_study\\YumYum Shooters\\Assets\\Scripts\\LinvingEntity\\Monsters\\MonSystem.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\LinvingEntity\\Monsters\\MonSystem.cs",
               "ToolTip": "D:\\Unity_study\\YumYum Shooters\\Assets\\Scripts\\LinvingEntity\\Monsters\\MonSystem.cs",
               "RelativeToolTip": "Assets\\Scripts\\LinvingEntity\\Monsters\\MonSystem.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAgwFMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAswCQAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-10T11:57:16.345Z"
+              "WhenOpened": "2025-01-10T11:57:16.345Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "GhostSystem.cs",
               "DocumentMoniker": "D:\\Unity_study\\YumYum Shooters\\Assets\\Scripts\\LinvingEntity\\Monsters\\Ghost\\GhostSystem.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\LinvingEntity\\Monsters\\Ghost\\GhostSystem.cs",
               "ToolTip": "D:\\Unity_study\\YumYum Shooters\\Assets\\Scripts\\LinvingEntity\\Monsters\\Ghost\\GhostSystem.cs",
               "RelativeToolTip": "Assets\\Scripts\\LinvingEntity\\Monsters\\Ghost\\GhostSystem.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwBMAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAACUAAAAAAAAAAAAkwA4AAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-10T11:56:44.013Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "PlayerMovement.cs",
               "DocumentMoniker": "D:\\Unity_study\\YumYum Shooters\\Assets\\Scripts\\LinvingEntity\\Player\\PlayerMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\LinvingEntity\\Player\\PlayerMovement.cs",
@@ -71,7 +119,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "PlayerInput.cs",
               "DocumentMoniker": "D:\\Unity_study\\YumYum Shooters\\Assets\\Scripts\\LinvingEntity\\Player\\PlayerInput.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\LinvingEntity\\Player\\PlayerInput.cs",
@@ -80,18 +128,6 @@
               "ViewState": "AgIAABwAAAAAAAAAAAAkwCIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-07T14:19:31.066Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ExpSpawner.cs",
-              "DocumentMoniker": "D:\\Unity_study\\YumYum Shooters\\Assets\\Scripts\\Item\\ExpSpawner.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Item\\ExpSpawner.cs",
-              "ToolTip": "D:\\Unity_study\\YumYum Shooters\\Assets\\Scripts\\Item\\ExpSpawner.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Item\\ExpSpawner.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAIwCAAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-07T08:02:34.68Z"
             }
           ]
         }

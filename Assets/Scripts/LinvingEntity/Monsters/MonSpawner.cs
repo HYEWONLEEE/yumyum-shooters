@@ -7,7 +7,8 @@ public class MonSpawner : MonoBehaviour
 {
     public MonPool monsterPool; //풀. 
     public GameObject monsterPrefab;
-    private float offset = 2f; //카메라 경계 바깥 거리
+    public GameObject player; //플레이어의 위치를 받아오기 위함
+    private float offset = 2f;
     private float spawnInterval = 2f; //스폰 주기
     public int initialPoolSize = 30; //초기 풀 사이즈 //
 
