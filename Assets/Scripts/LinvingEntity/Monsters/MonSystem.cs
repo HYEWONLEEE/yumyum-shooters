@@ -19,12 +19,20 @@ public class MonSystem : Living //LivingÀÌ MonoBehaviour¸¦ ÀÌ¹Ì »ó¼ÓÇÏ¹Ç·Î Ç¥½ÃÇ
     protected float attackCoolTime = 1f; //¸ö»§ °ø°ÝÀÌ ÀÌ·ç¾îÁú ÄðÅ¸ÀÓ(°£°Ý)
     protected float lastAttackTime; //¸¶Áö¸· ¸ö»§ °ø°Ý ½ÃÁ¡
 
+
+    //¸ó½ºÅÍ°¡ ÇÇ°Ý ½Ã »ìÂ¦ »¡°³Áö°Ô ¸¸µé±â
+    private Color originalColor; //¿ø·¡ »ö»ó
+    public float hitFlashDuration = 0.2f; //»¡°³Áú ½Ã°£
+    public float alpha = 0.4f; //Åõ¸íµµ
+
     public Vector2 moveDirection;
 
     public void Awake()
     {
         monAnimator = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
+        originalColor = spriteRenderer.color;
+        
     }
     protected void GetTarget()
     {
@@ -59,6 +67,10 @@ public class MonSystem : Living //LivingÀÌ MonoBehaviour¸¦ ÀÌ¹Ì »ó¼ÓÇÏ¹Ç·Î Ç¥½ÃÇ
     {
         base.OnDamage(damage, hitPoint, hitNormal);
         //Debug.Log("¾Æ¾ß");
+        if (gameObject.activeSelf)
+        {
+            StartCoroutine(FlashRed());
+        }
     }
 
     protected virtual void Attack() //¸ó½ºÅÍÀÇ °ø°Ý ½ºÅ³, ÇÃ·¹ÀÌ¾î¸¸ °ø°ÝÇÏ±æ
@@ -83,6 +95,21 @@ public class MonSystem : Living //LivingÀÌ MonoBehaviour¸¦ ÀÌ¹Ì »ó¼ÓÇÏ¹Ç·Î Ç¥½ÃÇ
         }
 
     }
+
+    private System.Collections.IEnumerator FlashRed()
+    {
+        if (!gameObject.activeSelf)
+        {
+            yield break;
+        }
+
+        spriteRenderer.color = new Color(1f, 0f, 0f, alpha); //Àá½Ã »¡°²°Ô º¯ÇÏ±â
+        yield return new WaitForSeconds(hitFlashDuration); //Àá½Ã ´ë±â
+        if (gameObject.activeSelf)
+        {
+            spriteRenderer.color = originalColor;
+        }//º¹±¸
+        }
 
     private void LRSetting()
     {

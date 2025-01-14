@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class GameManager : MonoBehaviour 
 {
     public static GameManager instance { get; private set; } //싱글톤 할당할 전역변수 프로퍼티로 만들기
-    public bool isGameover = false; //게임 오버 상태
+    public static bool isGameover = false; //게임 오버 상태, static 으로 사용
     [SerializeField] private GameObject mainParent;
     
 

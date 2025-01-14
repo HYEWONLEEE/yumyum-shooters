@@ -2232,7 +2232,7 @@ SpriteRenderer:
   m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.118497655, g: 0.335849, b: 0.21871828, a: 1}
+  m_Color: {r: 0.22182271, g: 0.3509434, b: 0.22756141, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -2733,7 +2733,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7085fb0eaef152347b79778f7c233cbe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isGameover: 0
   mainParent: {fileID: 101499505}
 --- !u!4 &1442838987
 Transform:
@@ -3350,6 +3349,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   expOrbPrefab: {fileID: 3078367446776393920, guid: 119738f451b6fb04ba849d94d5238e41, type: 3}
+  orbSprite:
+  - {fileID: -9109745510518855510, guid: 59c3ea1d96910714c88ccd9aec641c33, type: 3}
+  - {fileID: 5077907781379163189, guid: dea093381bd0d824d9d21ee56c78dbbe, type: 3}
+  - {fileID: -132108079007161142, guid: e5ece0df6e60edf4593def6232dc40f5, type: 3}
   field: {fileID: 1023721208}
   spawnInterval: 3
   numberOfOrbsPerSpawn: 10
