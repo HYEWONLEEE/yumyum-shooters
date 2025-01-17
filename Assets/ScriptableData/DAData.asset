@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   shotClip: {fileID: 0}
   damage: 20
-  timeBetShot: 1
+  timeBetShot: 0.7

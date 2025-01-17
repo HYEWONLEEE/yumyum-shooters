@@ -1,4 +1,6 @@
 using System.Collections;
+using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -8,6 +10,7 @@ public class GameManager : MonoBehaviour
     public static GameManager instance { get; private set; } //싱글톤 할당할 전역변수 프로퍼티로 만들기
     public static bool isGameover = false; //게임 오버 상태, static 으로 사용
     [SerializeField] private GameObject mainParent;
+    public GameObject gameOverCanvas;
     
 
 
@@ -26,7 +29,7 @@ public class GameManager : MonoBehaviour
         {
             instance = this;
             DontDestroyOnLoad(gameObject);
-            
+            DontDestroyOnLoad(gameOverCanvas);
         }
 
         else
@@ -51,6 +54,7 @@ public class GameManager : MonoBehaviour
             {
                 StartCoroutine(ActivateMainScene());
             }
+            
         }
 
         else
@@ -78,12 +82,20 @@ public class GameManager : MonoBehaviour
     {
         if (isGameover)
         {
-
+            GameOver();
         }
     }
 
-    public void OnPlayerDead()
+
+    private void GameOver() //게임 오버 시 실행될 메서드
     {
-        isGameover = true;
+        gameOverCanvas.SetActive(true);
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            isGameover = false;
+            gameOverCanvas.SetActive(false);
+            SceneManager.LoadScene("Main");
+
+        }
     }
 }

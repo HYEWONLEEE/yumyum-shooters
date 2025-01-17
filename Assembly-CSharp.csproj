@@ -87,6 +87,7 @@
     <Compile Include="Assets\Scripts\Attack\DAData.cs" />
     <Compile Include="Assets\Scripts\LinvingEntity\Monsters\MonData.cs" />
     <Compile Include="Assets\Scripts\Item\EXP.cs" />
+    <Compile Include="Assets\Scripts\UI\InstructionUI.cs" />
     <Compile Include="Assets\Scripts\Item\ItemBox.cs" />
     <Compile Include="Assets\Scripts\Item\HealPack.cs" />
   </ItemGroup>

@@ -42,6 +42,7 @@ public class PlayerInform : Living
         playerAnimator.SetTrigger("Die");
         playerInput.enabled = false;
         daSpawner.enabled = false;
+        GameManager.isGameover = true; 
 
     }
 
