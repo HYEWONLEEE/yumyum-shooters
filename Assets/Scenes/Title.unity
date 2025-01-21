@@ -646,7 +646,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &903474766
 Transform:
   m_ObjectHideFlags: 0
@@ -971,10 +971,11 @@ MonoBehaviour:
       m_Calls: []
   m_text: "\uB0E0\uB0E0! \uC288\uD130\uC988 \uC124\uBA85\uC11C\n\n\nwasd/\uBC29\uD5A5\uD0A4\uB85C
     \uC774\uB3D9\uD560 \uC218 \uC788\uC2B5\uB2C8\uB2E4.\n\uB9C8\uC6B0\uC2A4 \uCEE4\uC11C
-    \uBC29\uD5A5\uC73C\uB85C \uACF5\uACA9\uD569\uB2C8\uB2E4.\n\n\uD0D1\uB2E4\uC6B4
-    \uC0DD\uC874 \uC288\uD305 \uAC8C\uC784 \uC5F0\uC2B5\uC791 :)\n\n\n\nMADE BY :
-    HYEWONLEEE\nGitHub : https://github.com/HYEWONLEEE\neMail : devgpdnjs12@naver.com\n\nSONGs:
-    \nKevin MacLeod - Itty Bitty 8bit\nJeremy Blake - Powerup! \n"
+    \uBC29\uD5A5\uC73C\uB85C \uACF5\uACA9\uD569\uB2C8\uB2E4.\n\uBC15\uC2A4\uB97C
+    \uBD80\uC218\uACE0 \uB9DB\uC788\uB294 \uACFC\uC77C\uC744 \uBA39\uC5B4\uC694.\n\n\uD0D1\uB2E4\uC6B4
+    \uC0DD\uC874 \uC288\uD305 \uAC8C\uC784 \uC5F0\uC2B5\uC791 :)\n\n\nMADE BY : HYEWONLEEE\nGitHub
+    : https://github.com/HYEWONLEEE\neMail : devgpdnjs12@naver.com\n\nSONGs: \nKevin
+    MacLeod - Itty Bitty 8bit\nJeremy Blake - Powerup! \n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 14c3bf4c0e1dd9f4294db0b8b35bc6f4, type: 2}
   m_sharedMaterial: {fileID: 6996500863091306205, guid: 14c3bf4c0e1dd9f4294db0b8b35bc6f4, type: 2}

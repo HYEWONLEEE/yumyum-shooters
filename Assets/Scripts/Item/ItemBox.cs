@@ -6,16 +6,16 @@ public class ItemBox : MonoBehaviour, IDamageable //데미지 입을 수 있음
     public GameObject healPackPrefab;
     public ItemBoxSpawner boxSpawner;
     public int myNumber; //생성된 박스 자신의 번호 
+    private Animator boxAnimator; //박스의 애니메이터 컴포넌트
 
     private void Awake()
     {
         boxSpawner = FindFirstObjectByType<ItemBoxSpawner>();
+        boxAnimator = GetComponent<Animator>();
     }
     public void OnDamage(float damage, Vector2 hitPoint, Vector2 hitnormal)
     {
-        //힐팩 스폰
-        SpawnHealPack();
-        Destroy(gameObject);
+        boxAnimator.SetTrigger("Break"); //애니메이션 재생
     }
 
     public void SpawnHealPack()
@@ -25,7 +25,12 @@ public class ItemBox : MonoBehaviour, IDamageable //데미지 입을 수 있음
         GameObject newHealPack = Instantiate(healPackPrefab, position, rotation); //힐팩 생성
     }
 
-    public void OnDestroy()
+    public void AnimEnd()//애니메이션이 끝난 후 호출되도록 함
+    {
+        SpawnHealPack();
+        Destroy(gameObject); //박스 파괴
+    }
+    public void OnDestroy() 
     {
         boxSpawner.OnBoxDestroyed(myNumber);
         Debug.Log(myNumber + "위치의 박스 파괴");
